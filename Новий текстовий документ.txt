@@ -1,0 +1,485 @@
+﻿        <!--First slider-->
+        <div class="top_slide container">
+            <div class="single-item">
+                <div class="slide">
+                    <div class="slide_1" style="background-image: url(img/slide_1.jpg)">
+                        <h3>Trampki NEW BALANCE MRL420 (-60%)</h3>
+                        <span>167,60 zt</span>
+                        <p>Wyjdź na miasto w kultowym stylu! Wykonane z najwyższej jakości zamszu oraz materiałów tekstylnych, zapewnią Ci charakterystyczny dla butów z N na boku komfort. Podeszwa środkowa REVlite świetnie amortyzuje każdy krok. </p>
+                        <form action="">
+                            <a href=""><input type="submit" class="slide_submit" value="Zlap okazje"></a>
+                        </form>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide_2" style="background-image: url(img/slide_2.jpg)">
+                        <h3>Sukienka z falbanką PROMOD (-70%)</h3>
+                        <span>35,50 zt</span>
+                        <p>Potrzebujesz eleganckiej sukienki na wyjątkowe okazje? Promod w swojej ofercie posiada coś dla Ciebie. Bawełniana sukienka z dekoltem w kształcie litery V, zapinana z boku na zamek,
+                            uwydatni walory twojej sylwetki dzięki szyciu – dopasowanej górze, podkreślonej talii i rozkloszowanemu dołowi.</p>
+                        <form action="">
+                            <a href=""><input type="submit" class="slide_submit" value="Zlap okazje"></a>
+                        </form>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide_3" style="background-image: url(img/slide_3.jpg)">
+                        <h3>Spring/Summer Collection 2017</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card_1">
+                    <img src="img/avatar.png" alt="">
+                    <div class="text">
+                        <span>Bigapplegirl</span>
+                        <p>POINTS:</p>
+                        <p>EXPERIENCE:</p>
+                    </div>
+                </div>
+                <div class="card_2">
+                    <img src="img/card-tool.png" alt="">
+                    <p><span>MEMBER</span> PRIVILEDGES</p>
+                </div>
+                <div class="card_3">
+                    <img src="img/tag.png" alt="">
+                    <p>DODAJ OKAZJE</p>
+                </div>
+            </div>
+        </div>
+        <!--End first slider-->
+        <div class="partner_slider">
+            <div class="container">
+                <div class="arrow_slider">
+                    <div class="slide">
+                        <img src="img/recommended/photo_1.jpg" alt="">
+                        <div class="text">
+                            <h2>Elektronika</h2>
+                            <p>BANG & OLUFSEN PLAY BeoPlay H2 </p>
+                            <span>€103,36<br>
+                                (ok.435 zł)</span>
+                            złap okazję
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/recommended/photo_2.jpg" alt="">
+                        <div class="text">
+                            <h2>Biżuteria i zegarki</h2>
+                            <p>Zegarek sportowy SUUNTO Ambit 3 Run  </p>
+                            <span>€ €182,15 <br>
+                            (ok.765 zł)</span>
+                            złap okazję
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/recommended/photo_3.jpg" alt="">
+                        <div class="text">
+                            <h2>Moda</h2>
+                            <p>Męskie buty BROOKS Glycerin 14</p>
+                            <span>£66,01 (ok. 319 zł)
+                            z dostawą</span>
+                            złap okazję
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/recommended/photo_4.jpg" alt="">
+                        <div class="text">
+                            <h2>Biżuteria i zegarki</h2>
+                            <p>Zegarek damski  PERFOIS (-60%)</p>
+                            <span>55,60 zł
+                                z dostawą</span>
+                            złap okazję
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/recommended/photo_1.jpg" alt="">
+                        <div class="text">
+                            <h2>Elektronika</h2>
+                            <p>BANG & OLUFSEN PLAY BeoPlay H2 </p>
+                            <span>€103,36<br>
+                                (ok.435 zł)</span>
+                            złap okazję
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/recommended/photo_2.jpg" alt="">
+                        <div class="text">
+                            <h2>Biżuteria i zegarki</h2>
+                            <p>Zegarek sportowy SUUNTO Ambit 3 Run  </p>
+                            <span>€ €182,15 <br>
+                            (ok.765 zł)</span>
+                            złap okazję
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="img/recommended/photo_3.jpg" alt="">
+                        <div class="text">
+                            <h2>Moda</h2>
+                            <p>Męskie buty BROOKS Glycerin 14</p>
+                            <span>£66,01 (ok. 319 zł)
+                            z dostawą</span>
+                            złap okazję
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End 2 slider-->
+
+        <!-- Start main-->
+        <main>
+            <h1><span>Popular</span> deals</h1>
+            <div class="items">
+                <ul>
+                    <li>
+                        <img src="img/popular/photo_5.jpg" alt="">
+                        <div class="text">
+                            <h2>Portfel MICHAEL KORS  <span>229,50 zł</span></h2>
+                            <form action="">
+                                <input type="submit" class="item_submit" value="dostawa gratis">
+                            </form>
+                            <div class="author">
+                                <img src="img/avatar_m.png" alt="">
+                                <p><span>Klaudia88</span>  12 godzin temu w <span>Dodatki - Moda</span></p>
+                                <p class="story">Akcesoria Michael Kors to obiekt pożądania każdej kobiety. Zachwycają nie tylko pięknem, ale też precyzją i jakością wykonania.
+                                    Klasyczne, perfekcyjnie wykończone i nigdy nie…<a href="">czytaj więcej</a></p>
+                                <div class="comment">
+                                    <a href="zalando.pl"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="count_like" class="zahl"></div>
+                        <p id="like" class="like"><img src="img/like.png" alt=""></p>
+                        <p id="dislike" class="dislike"><img src="img/dislike.png" alt=""></p>
+                    </li>
+                </ul>
+            </div>
+        </main>
+
+
+
+
+
+
+
+
+.top_slide {
+  background-color: #efedee;
+}
+
+.single-item {
+  position: relative;
+  max-width: 1140px;
+  float: left;
+}
+.slick-prev {
+  border: none;
+  outline: none;
+  color: red;
+  background: transparent;
+  &:before {
+    content: "←";
+  }
+}
+  .slide {
+    min-height: 380px;
+    text-align: left;
+    outline: none;
+    padding: 0 20px;
+    .slide_submit {
+      color: #ee4c47;
+      font-size: 18px;
+      font-family: $font-medium;
+      border: 1px solid #ee4c47;
+      background-color: #f0eeef;
+      padding: 12px 25px 9px;
+      &:hover {
+        background-color: #ee4c47;
+        color: #f0eeef;
+      }
+    }
+    span {
+      font-size: 30px;
+      font-family: $font-extra;
+      color: #ee4c47;
+    }
+    p {
+      max-width: 440px;
+    }
+    .slide_1 {
+      border: 2px solid #ee4c47;
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-color: #efedee;
+      background-position: right bottom;
+      h3 {
+        font-size: 30px;
+        font-family: $font-light;
+        color: #333;
+      }
+      p {
+        font-size: 16px;
+        font-family: $font-light;
+        line-height: 25px;
+      }
+    }
+    .slide_2 {
+      border: none;
+      background-repeat: no-repeat;
+      padding-left: 30px;
+      background-color: #efedee;
+      background-position: center;
+      h3 {
+        font-size: 30px;
+        font-family: $font-light;
+        color: #333;
+      }
+      p {
+        font-size: 16px;
+        font-family: $font-light;
+        line-height: 25px;
+        max-width: 620px;
+      }
+    }
+
+    .container {
+      display: inline-block;
+      height: 100%;
+      background-position: right bottom;
+      background-size: contain;
+      background-repeat: no-repeat;
+      text-align: left;
+    }
+      h3 {
+        font-size: 46px;
+        font-weight: bold;
+        line-height: 54px;
+        margin-top: 55px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 55px;
+        margin-top: 0;
+      }
+
+      .btn {
+        height: 44px;
+        line-height: 42px;
+        padding: 0 28px;
+        font-size: 16px;
+      }
+    }
+
+
+
+.cards {
+  float: right;
+  .card_1 {
+    height: 100px;
+    width: 360px;
+    background: #333;
+    margin-bottom: 20px;
+    img {
+      padding-left: 29px;
+      float: left;
+    }
+    .text {
+      padding-left: 160px;
+      color: $white;
+      span {
+        font-size: 18px;
+        font-family: $font-bold;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .card_2 {
+    height: 100px;
+    width: 360px;
+    background-color: #333;
+    position: relative;
+    img {
+      position: absolute;
+      padding-left: 15px;
+      top: -12px;
+    }
+    p {
+      padding-left: 160px;
+      color: $white;
+      font-size: 24px;
+      span {
+        font-family: $font-bold;
+      }
+    }
+  }
+  .card_3 {
+    height: 100px;
+    width: 360px;
+    background-color: #ee4c47;
+    position: relative;
+    img {
+      position: absolute;
+      padding-left: 15px;
+      top: -5px;
+    }
+    p {
+      padding-left: 160px;
+      color: $white;
+      font-size: 24px;
+    }
+  }
+}
+
+
+.partner_slider {
+  margin: 58px 0 3px 0;
+  position: relative;
+  background-color: #f5f5f5;
+
+  .arrow_slider {
+    padding: 0 40px;
+  }
+
+  .slide {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 25px;
+    height: 220px;
+    max-width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .text {
+      h2 {
+        font-size: 12px;
+        font-family: $font-open;
+        color: #777;
+      }
+      p {
+        font-size: 15px;
+        color: #333;
+      }
+      span {
+        font-family: $font-openextra;
+        font-size: 15px;
+        color: #ee4c47;
+      }
+    }
+
+
+    img {
+      max-height: 220px;
+      vertical-align: middle;
+      display: inline-block;
+      max-width: 100%;
+    }
+    .text {
+      background-color: #fff;
+      height: 220px;
+    }
+  }
+}
+
+main {
+  h1 {
+    font-size: 24px;
+    color: #333;
+    text-transform: uppercase;
+    font-family: $font-light;
+  }
+  span {
+    color: #ee4c47;
+  }
+  .items {
+    display: inline-block;
+    ul {
+      list-style: none;
+      li {
+        .text {
+          h2 {
+            font-size: 20px;
+            font-family: $font-light;
+            color: #333;
+            span {
+              font-family: $font-extra;
+            }
+          }
+          .item_submit {
+            background-color: #ee4c47;
+            border: none;
+            outline: 0;
+            color: #fff;
+            padding: 3px 12px;
+            }
+          .author {
+            display: inline-block;
+            img {
+              float: left;
+              vertical-align: middle;
+            }
+            p {
+              color: #777;
+              font-size: 13px;
+              font-family: $font-open;
+              span {
+                font-size: 13px;
+                font-family: $font-open;
+              }
+            }
+            .story {
+              font-size: 14px;
+              color: #333;
+              a {
+                text-decoration: none;
+                color: #ee4c47;
+              }
+            }
+          }
+          }
+
+
+            .like,.dislike{
+              margin:0px;
+              padding: 5px;
+              border: none;
+              float:left;
+              background-color: #f5f5f5;
+              cursor:pointer;
+              height: 40px;
+              width: 59px;
+              display:inline-block;
+              margin-right:2px;
+              margin-top: 2px;
+              -webkit-user-select: none;
+              -moz-user-select: none;
+              -ms-user-select: none;
+              user-select: none;
+              box-sizing: border-box;
+            }
+            .zahl{
+              height: 82px;
+              width: 120px;
+              background-color: #f5f5f5;
+              color: #ee4c47;
+              font-size: 40px;
+              padding-top: 25px;
+              padding-left: 37px;
+              font-family: $font-light;
+              min-height: 20px;
+              box-sizing: border-box;
+            }
+            span { color: red;}
+
+        }
+      }
+    }
+  }
+
+

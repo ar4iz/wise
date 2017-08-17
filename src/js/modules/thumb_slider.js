@@ -1,22 +1,12 @@
 
+$(".slider").slick({
 
-$('.single-item').slick({
-    accessibility: true,
+    autoplay: false,
+    dots: false,
     arrows: true,
-    prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
-    nextArrow: '<button class="slick-next" aria-label="Next" type="button">Next</button>',
-    autoplay: true,
-    autoplaySpeed: 3000,
 });
-function previous() {
-    $(".slider").slick('slickPrev');
-}
 
-function next() {
-    $(".slider").slick('slickNext');
-}
-
-$('.arrow_slider').slick({
+/*$('.arrow_slider').slick({
     dots: false,
     infinite: true,
     speed: 600,
@@ -34,4 +24,4 @@ $('.arrow_slider').slick({
             }
         }
     ]
-});
+});*/
