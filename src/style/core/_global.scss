@@ -45,6 +45,37 @@
   z-index: 2;
 }
 
+.slide_submit {
+  color: #ee4c47;
+  font-size: 18px;
+  font-family: $font-medium;
+  border: 1px solid $red-light;
+  background-color: #f0eeef;
+  padding: 12px 25px 9px;
+  margin-bottom: 38px;
+  outline: 0;
+  &:hover {
+    background-color: $red-light;
+    color: #f0eeef;
+  }
+}
+  .submit_small {
+    font-size: 14px;
+    border: 1px solid $red-light;
+    color: #ee4c47;
+    font-family: $font-medium;
+    background-color: $white;
+    outline: 0;
+    padding: 10px 18px;
+    &:hover {
+      background-color: $red-light;
+      color: $white;
+    }
+  }
+
+
+
+
 .form-control {
   border: none;
   border-bottom: 1px solid $white;
