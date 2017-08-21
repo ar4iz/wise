@@ -9,6 +9,6 @@
  */
 //= modules/search.js
 //= modules/like.js
+//= modules/load.js
 //= modules/thumb_slider.js
-//= modules/testimonial_slider.js
 

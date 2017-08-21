@@ -51,9 +51,10 @@
   font-family: $font-medium;
   border: 1px solid $red-light;
   background-color: #f0eeef;
-  padding: 12px 25px 9px;
-  margin-bottom: 38px;
+  padding: 8px 25px;
+  /*margin-bottom: 38px;*/
   outline: 0;
+  box-sizing: border-box;
   &:hover {
     background-color: $red-light;
     color: #f0eeef;
