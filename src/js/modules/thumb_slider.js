@@ -9,7 +9,7 @@ $('.product_slider').slick({
     infinite: true,
 
     speed: 600,
-    slidesToShow: 4,
+    slidesToShow: 3,
     arrows: true,
     draggable: false,
     autoplay: false,

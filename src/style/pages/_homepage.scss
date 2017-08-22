@@ -1,6 +1,6 @@
 header {
   background: #333;
-  height: 60px;
+  height: auto;
   /*margin-bottom: 20px;*/
   .logo {
     padding-top: 15px;
@@ -33,6 +33,9 @@ header {
     padding: 21px 24px;
     text-decoration: none;
     box-sizing: border-box;
+    @include tablet {
+      padding: 21px 15px;
+    }
   }
 
   li a:hover, .dropdown:hover .dropbtn {
@@ -108,6 +111,9 @@ header {
     right: 165px;
     top: 50%;
     transform: translate(0, -50%);
+    @include tablet {
+      right: 145px;
+    }
   }
 
   .search-toggle {
@@ -264,6 +270,10 @@ header {
 .hero-slider {
   width: calc(100% - 360px - 20px);
   display: inline-block;
+  @include tablet {
+    display: block;
+    width: 100%;
+  }
 }
 .slider {
   width: auto;
@@ -325,11 +335,15 @@ header {
   background-position: center;
   background-size: 100%;
   margin-top: 20px;
+  background-repeat: no-repeat;
   h3 {
     margin-top: 0;
     padding-top: 40px;
     font-size: 30px;
     font-family: $font-light;
+    @include laptop {
+      padding-top: 4px;
+    }
   }
   span {
     font-size: 30px;
@@ -355,6 +369,8 @@ header {
     padding-left: 30px;
     background-color: #efedee;
     background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
     padding-bottom: 5px;
     h3 {
       margin-bottom: 0;
@@ -388,8 +404,9 @@ header {
 
   .slide_3 {
     text-align: left;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: right;
     h3 {
       font-size: 50px;
       line-height: 60px;
@@ -403,6 +420,12 @@ header {
 .cards {
   float: right;
   margin-top: 20px;
+  @include tablet {
+    float: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .card_1 {
     height: 100px;
     width: 360px;
@@ -548,7 +571,7 @@ header {
       margin-top: 15px;
     }
   .product_slider {
-    margin: 0 176px;
+    margin: 0 95px;
     .slide {
       min-height: 220px;
       width: 100%;
@@ -558,6 +581,11 @@ header {
   .wrap-slide {
     background-color: $white;
     float: left;
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
   .product {
     display: inline-block;
@@ -578,6 +606,10 @@ header {
     float: left;
     padding-left: 14px;
     box-sizing: border-box;
+    @include tablet {
+      width: 100%;
+      text-align: center;
+    }
     h4 {
       font-size: 12px;
       font-family: $font-open;
@@ -649,11 +681,17 @@ main {
     ul {
       list-style: none;
       margin-top: 0;
+      @include tablet {
+        padding-left: 10px;
+      }
       li {
         display: inline-flex;
         .item {
           padding-right: 57px;
           width: 173px;
+          @include tablet {
+            padding-right: 20px;
+          }
           img {
             display: block;
             height: auto;
@@ -949,6 +987,10 @@ aside {
     }
   }
 
+  .aside-banner {
+      width: 100%;
+  }
+
   .socials {
     margin-bottom: 20px;
     float: left;
@@ -1005,9 +1047,15 @@ footer {
         }
         &:last-child {
           padding-left: 160px;
+          @include tablet {
+            padding-left: 27px;
+          }
         }
         .column:last-child {
           padding-left: 130px;
+          @include tablet {
+            padding-left: 29px;
+          }
         }
       }
 
