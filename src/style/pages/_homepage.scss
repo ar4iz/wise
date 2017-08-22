@@ -7,6 +7,9 @@ header {
     float: left;
     position: relative;
     z-index: 2;
+    @include phone {
+      float: none;
+    }
   }
 
   .menu {
@@ -274,6 +277,9 @@ header {
     display: block;
     width: 100%;
   }
+  @include phone {
+    display: none;
+  }
 }
 .slider {
   width: auto;
@@ -303,6 +309,7 @@ header {
     position: absolute;
   }
 }
+
 .slick-next {
   border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.102);
@@ -426,9 +433,36 @@ header {
     flex-direction: column;
     align-items: center;
   }
-  .card_1 {
+  .card_1, .card_2, .card_3 {
     height: 100px;
     width: 360px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    @include phone {
+      width: 310px;
+    }
+    .tag {
+      img {
+        height: 100%;
+      }
+    }
+    a {
+      text-decoration: none;
+    }
+    p {
+      color: $white;
+      font-size: 24px;
+      font-family: $font-extra;
+      max-height: 78px;
+    }
+    span {
+      font-family: $font-light;
+    }
+  }
+
+  .card_1 {
     max-width: 360px;
     background: #333;
     margin-bottom: 20px;
@@ -473,74 +507,22 @@ header {
       }
     }
   }
+
   .card_2 {
-    height: 100px;
-    width: 360px;
-    max-width: 360px;
     background-color: #333;
-    position: relative;
-    img {
-      position: absolute;
-      padding-left: 15px;
-      height: 100%;
-    }
-    .text {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-      margin-left: 35px;
-      width: 100%;
-      overflow: hidden;
-    }
-    a {
-      text-decoration: none;
-    }
     p {
-      display: flex;
-      flex-direction: column;
-      color: $white;
-      font-size: 24px;
-      font-family: $font-extra;
-      span {
-        font-family: $font-light;
-      }
+     /* display: flex;
+      flex-direction: column;*/
+      margin: 0;
+      padding: 0 10px;
     }
   }
+
   .card_3 {
-    height: 100px;
-    width: 360px;
-    max-width: 360px;
     background-color: $red-light;
-    position: relative;
     margin-top: 20px;
-    float: left;
-    img {
-      position: absolute;
-      padding-left: 15px;
-      height: 100%;
-    }
-    .text {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0;
-      margin-left: 35px;
-      width: 100%;
-      overflow: hidden;
-    }
-    a {
-      text-decoration: none;
-    }
     p {
-      float: right;
-      color: $white;
-      font-size: 24px;
-      font-family: $font-extra;
-      span {
-        font-family: $font-light;
-      }
+      margin: 0;
     }
   }
 }
@@ -560,6 +542,9 @@ header {
       font-family: $font-semibold;
       color: $red-light;
     }
+    @include phone {
+      text-align: center;
+    }
   }
   .slick-prev {
     left: -85px;
@@ -572,6 +557,9 @@ header {
     }
   .product_slider {
     margin: 0 95px;
+    @include phone {
+      margin: 0 15px;
+    }
     .slide {
       min-height: 220px;
       width: 100%;
@@ -581,10 +569,13 @@ header {
   .wrap-slide {
     background-color: $white;
     float: left;
-    @include tablet {
+    @include laptop-s {
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
+    @include mobile-sm {
+      width: 100%;
     }
   }
   .product {
@@ -597,6 +588,7 @@ header {
       vertical-align: middle;
       display: inline-block;
       max-width: 100%;
+      width: 100%;
     }
   }
   .text {
@@ -604,9 +596,10 @@ header {
     min-height: 220px;
     width: 50%;
     float: left;
-    padding-left: 14px;
+    padding-left: 13px;
+    padding-right: 13px;
     box-sizing: border-box;
-    @include tablet {
+    @include laptop-s {
       width: 100%;
       text-align: center;
     }
@@ -624,16 +617,27 @@ header {
     p {
       font-size: 15px;
       font-family: $font-open;
-      padding-top: 8px;
-      padding-bottom: 8px;
-      line-height: 22px;
+      padding: 8px;
+      padding-left: 0;
+      line-height: 23px;
+      max-height: 78px;
       margin-top: 0;
+      overflow: hidden;
       a {
         color: #333;
         text-decoration: none;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
       }
     }
-
+    span {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      max-height: 44px;
+    }
     .int_cur, .nat_cur {
       font-family: $font-openextra;
       font-size: 15px;
@@ -659,6 +663,9 @@ header {
 main {
   float: left;
   width: 74.5%;
+  @include mobile-sm {
+    width: 100%;
+  }
   h1 {
     font-size: 24px;
     color: #333;
@@ -686,11 +693,18 @@ main {
       }
       li {
         display: inline-flex;
+        @include mobile-sm {
+          display: flex;
+          flex-direction: column;
+        }
         .item {
           padding-right: 57px;
           width: 173px;
           @include tablet {
             padding-right: 20px;
+          }
+          @include mobile-sm {
+            margin: 0 auto;
           }
           img {
             display: block;
@@ -703,6 +717,9 @@ main {
         }
         .text {
           display: flex;
+          @include mobile-sm {
+            flex-direction: column;
+          }
           h2 {
             font-size: 20px;
             font-family: $font-light;
@@ -774,6 +791,9 @@ main {
           margin-top: 30px;
           padding-right: 29px;
           width: 120px;
+          @include mobile-sm {
+            margin: 0 auto;
+          }
         }
 
 
@@ -837,6 +857,9 @@ main {
           display: inline-block;
           width: 100%;
           margin-right: 29px;
+          @include mobile-sm {
+            margin-top: 10px;
+          }
           p {
             color: #999;
             float: left;
@@ -903,6 +926,11 @@ aside {
   float: right;
   width: 23.5%;
   margin-left: 2%;
+  @include mobile-sm {
+    width: 100%;
+    margin-left: 0;
+
+  }
   h1 {
     font-size: 24px;
     color: #333;
@@ -1018,10 +1046,6 @@ footer {
   .footer_box {
     padding-top: 51px;
     padding-bottom: 29px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
     .footer_logo {
       float: left;
       .copyright {
@@ -1029,15 +1053,22 @@ footer {
         color: #ccc;
         font-family: $font-open;
       }
+      @include mobile-sm {
+        display: block;
+        text-align: center;
+        padding-bottom: 25px;
+        width: 100%;
+      }
     }
     .footer_menu {
-      display: inline-block;
+      display: flex;
+      align-items: end;
+      justify-content: space-around;
+      @include mobile-sm {
+        display: block;
+      }
 
       .column {
-        display: inline-block;
-        padding-top: 0;
-        float: left;
-        text-transform: uppercase;
         h2 {
           color: $red-light;
           font-size: 13px;
@@ -1045,17 +1076,12 @@ footer {
           padding-bottom: 21px;
           margin: 0;
         }
-        &:last-child {
-          padding-left: 160px;
-          @include tablet {
-            padding-left: 27px;
-          }
+        &:nth-child(4) {
+          padding-top: 36px;
         }
-        .column:last-child {
-          padding-left: 130px;
-          @include tablet {
-            padding-left: 29px;
-          }
+        @include mobile-sm {
+          float: left;
+          padding-right: 50px;
         }
       }
 
@@ -1072,6 +1098,10 @@ footer {
           text-decoration: none;
         }
       }
+    }
+
+    .wrapper {
+      display: inline-flex;
     }
 
     .socials {
