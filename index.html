@@ -41,14 +41,16 @@
                         <li><a href="#">Overseas</a></li>
                         <li><a href="#">Articles</a></li>
                     </ul>
-                    <form action="" class="search-box">
-                        <input type="text" class="text search-input" placeholder="Search for Products or Shops..." />
-                        <input type="button" class="button" value="Search">
-                    </form>
                     <a href="#" class="login">Login to get points</a>
                 </nav>
             </div>
         </div>
+		<form action="" class="search-box">
+			<div class="container">
+				<input type="text" class="text search-input" placeholder="Search for Products or Shops...">
+				<input type="button" class="button" value="Search">
+			</div>
+		</form>
     </header>
     <!-- header end -->
     <div class="top-slide">
@@ -81,17 +83,17 @@
             </div>
             <div class="cards">
                 <div class="card_1">
-                    <img src="img/avatar.png" alt="">
+                    <div class="tag">
+                        <img src="img/avatar.png" alt="">
+                    </div>
                     <div class="text">
                         <span>Bigapplegirl</span>
                         <ul>
                             <li>
-                                <span class="name">POINTS:</span>
-                                <span class="point">319</span>
+                                <span class="name">POINTS: <span class="point">319</span></span>
                             </li>
                             <li>
-                                <span class="name">EXPERIENCE:</span>
-                                <span class="point">128</span>
+                                <span class="name">EXPERIENCE: <span class="point">128</span></span>
                             </li>
                         </ul>
                     </div>
@@ -101,7 +103,8 @@
                         <img src="img/card-tool.png" alt="">
                     </div>
                     <div class="text">
-                        <p>MEMBER <span>PRIVILEDGES</span></p>
+                        <p>MEMBER</p>
+                        <p class="light-text">PRIVILEDGES</p>
                     </div>
                 </div>
                 <div class="card_3">
@@ -109,7 +112,8 @@
                         <img src="img/tag.png" alt="">
                     </div>
                     <div class="text">
-                        <p>DODAJ <span>OKAZJE</span></p>
+                        <p>DODAJ</p>
+                        <p class="light-text">OKAZJĘ</p>
                     </div>
                 </div>
             </div>
@@ -790,8 +794,9 @@
                 <a href="#"><img src="img/article/banner_2.jpg" class="aside-banner" alt=""></a>
             </div>
 
-            <h1><span>Follow</span> us</h1>
+
             <div class="socials">
+                <h1><span>Follow</span> us</h1>
                 <div class="wrapper">
                     <a href="facebook.com"><i class="fa fa-3x fa-facebook-square"></i></a>
                     <a href="twitter.com"><i class="fa fa-3x fa-twitter-square"></i></a>
@@ -814,28 +819,36 @@
                     </div>
 
 
-                    <div class="column">
-                        <h2>WISEBEARS</h2>
-                        <a href="#">Home</a>
-                        <a href="#">New</a>
-                        <a href="#">Domestic</a>
-                        <a href="#">Overseas</a>
-                        <a href="#">Articles</a>
-                    </div>
-                    <div class="column">
-                        <h2>KATEGORIE</h2>
-                            <a href="#">AGD</a>
-                            <a href="#">Telewizory i RTV</a>
-                            <a href="#">Foto, komputery i GSM</a>
-                            <a href="#">Dom i ogród</a>
-                            <a href="#">Dla zwierząt</a>
-                    </div>
+                    <div class="columns">
                         <div class="column">
-                            <a href="#">Dla dziecka</a>
-                            <a href="#">Sport, outdoor i rowery</a>
-                            <a href="#">Zdrowie i uroda</a>
-                            <a href="#">Odzież, obuwie i zegarki</a>
+                            <h2>WISEBEARS</h2>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">New</a></li>
+                                <li><a href="#">Domestic</a></li>
+                                <li><a href="#">Overseas</a></li>
+                                <li><a href="#">Articles</a></li>
+                            </ul>
                         </div>
+                        <div class="column">
+                            <h2>KATEGORIE</h2>
+                            <ul>
+                                <li><a href="#">AGD</a></li>
+                                <li><a href="#">Telewizory i RTV</a></li>
+                                <li><a href="#">Foto, komputery i GSM</a></li>
+                                <li><a href="#">Dom i ogród</a></li>
+                                <li><a href="#">Dla zwierząt</a></li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <ul>
+                                <li><a href="#">Dla dziecka</a></li>
+                                <li><a href="#">Sport, outdoor i rowery</a></li>
+                                <li><a href="#">Zdrowie i uroda</a></li>
+                                <li><a href="#">Odzież, obuwie i zegarki</a></li>
+                            </ul>
+                        </div>
+                    </div>
 
                     <div class="socials">
                         <h2>Follow us</h2>
