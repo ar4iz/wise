@@ -2,6 +2,14 @@ $(".slider").slick({
     autoplay: false,
     dots: false,
     arrows: true,
+    responsive: [
+        {
+            breakpoint: 694,
+            settings: {
+                arrows: false
+            }
+        }
+    ]
 });
 
 $('.product_slider').slick({

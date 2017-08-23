@@ -44,6 +44,18 @@
   }
 }
 
+@mixin mobile-m () {
+  @media (max-width: 607px) {
+    @content;
+  }
+}
+
+@mixin phone-lg () {
+  @media (max-width: 481px) {
+    @content;
+  }
+}
+
 @mixin phone () {
   @media (max-width: 320px) {
     @content;
