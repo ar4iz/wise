@@ -22,7 +22,7 @@
     "gulp.spritesmith": "^5.0.1",
     "imagemin-pngquant": "^4.2.0",
     "install": "^0.3.0",
-    "jquery": "^2.2.0",
+    "jquery": "~> 3.0.0",
     "select2": "^4.0.3",
     "slick-carousel": "^1.6.0"
   },
